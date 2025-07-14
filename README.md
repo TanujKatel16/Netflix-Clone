@@ -45,5 +45,5 @@ Check out the live demo hosted with GitHub Pages:
 *(Add a screenshot here once you take it — save as `screenshot.png` and put in root or images folder)*
 
 ```markdown
-![Screenshot](images/screenshot.png)
+![Screenshot](Screenshot .png)
 
