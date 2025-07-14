@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+.bg{
+        background-image: url("bg.jpg") ;        
+        height:720px;
+        width: 100%;
+        position: relative;   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: cover;
+}
+
+
+nav{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    position: relative;
+    z-index: 13;
+    gap: 599px;
+}
+   
+
+
+.container{
+    height:720px;
+    width:100vw;
+    background:rgb(1, 0, 0);
+    position: relative;
+    opacity: 0.6;
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    
+}
+.button{
+    display:flex;
+    gap:8px;
+    margin: 28;
+    padding: 16px;
+}
+.button button{
+ 
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  letter-spacing: 0.5px;
+
+}
+.lang button{
+     padding: 8px 29px;
+     background: rgb(32, 28, 28);
+     opacity:0.5 ;
+     color: white;
+     border:1px solid white
+    
+
+}
+.sign-in button{
+    padding: 9px 13px;
+    background-color: #e50914; 
+    color: white;
+
+}
+.content{
+    height: 320px;
+    margin-top: -12px;
+    width: 652px;
+    gap: 20px;
+    color: white;
+    display: flex;
+
+    position: relative;
+    z-index: 10;
+    padding: 70px 0px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+div.last{
+    display: flex;
+    height: 55px;
+    width: 631px;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+    font-family: sans-serif;
+}
+.line1{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: normal;
+   
+
+}
+.line2{
+    font-size: 16px;
+    font-weight: 550;
+    font-family: normal;
+
+}
+   div.placeholder{
+    background:none;
+    opacity: 0.9;
+
+}
+.buttun{
+    background-color:#B3131A;
+    color: white;
+     border-radius: 12px;
+}
+input{
+    background-color: rgba(34, 33, 33, 0.3);
+    padding: 0px 0px;
+    width: 382px;
+    height: 49px;
+    color: white;
+    text-align: center;
+}
+
+
+
+placeholder{
+    width:200px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+button.A{
+    padding: 18px 71px;
+    background-color: #B3131A;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 12px;
+    
+
+}
+.seperation{
+    height: 75px;
+    width: 100vw;
+    background: rgb(5, 0, 15);
+    border-radius: 120% / 100px 100px 0 0;
+    position: absolute;
+    top: 670px;
+    box-shadow: 20px 20px 50px rgb(5, 0, 15);
+    
+
+}
+
+.space-1{
+    height:100px;
+    width: 100vw;
+    border-radius: 200% / 100px 100px 0 0;
+    background: rgb(2, 0, 5);         
+    box-shadow: 20px 20px 50px rgb(5, 0, 15);  
+}
+
+.space-2{
+    height:1500px;
+    width: 100vw;
+    border-radius: 500% / 500px 100px 0 0;
+    background: rgb(2, 0, 5);          
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    height:250px;
+    width: 1000px;
+    margin:100px auto;
+}
+.element{
+    width:175px;
+    height:265px;
+    margin:5px auto;
+    background: yellow;
+    cursor: pointer;
+    border-radius: 10px;
+   
+}   
+.element img{
+    object-fit: cover;
+}
+
+.m1{
+    background-image: url("movie-1.webp");
+}
+.m2{
+    background-image: url("movie-2.webp");
+}.m3{
+    background-image: url("movie-3.webp");
+}.m4{
+    background-image: url("movie-4.webp");
+}.m5{
+    background-image: url("movie-5.webp");
+}
+.element:hover {
+    width:180px;
+    height:270px; 
+    box-shadow: 12px 12px 18px rgb(27, 0, 63); 
+    transition: all 0.3s ease-in; 
+    
+}
+.t1{
+    color: white;
+    margin-left: 200px;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-content: space-evenly;
+    height:320px;
+    width: 1150px;
+    margin:100px auto;
+    /* background: rgb(16, 0, 20); */
+    border-radius: 25px;
+    box-shadow: 15px 15px 25px rgb(48, 0, 36);
+}
+.box{
+    width:275px;
+    height:290px;
+    margin:5px auto;
+    background: #080114;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 6px 6px 40px #270137;
+    display:flex;
+   
+}  
+
+
+
+
